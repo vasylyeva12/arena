@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background: #1ABC9C;
+    padding: 15px 0;
+}
+.header-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* располагаем элементф равноудаленно друг от друга*/
+    align-items: center; /**/
+}
+a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none; /* none - убираем нижнее подчеркивание в ссылках. soled добавляем нижнее подчеркивание в ссылках*/
+    margin-right: 20px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.social-icon {
+    margin-right: 20px;
+}
+
+/* О нас */
+
+.main-about {
+    display: flex;
+   
+}
+.about-img {
+width: 50%;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 70px;
+    width: 50%;
+   
+      
+}
+.about-title {
+    
+    font-size: 35px;
+    margin-bottom: 35px;
+ }
+
+
+.main_projects {
+    background: #DCFFEB;
+    padding-bottom: 50px;
+}
+
+.project_title {
+    font-size: 35px;
+    padding: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.project_images {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+}
+
+.one-img-wrap {
+    position: relative;
+}
+
+.one-img-wrap:hover .text-wrap {
+   opacity: 1;
+}
+
+.text-wrap {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    padding: 0 50px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.title-on-img {
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0 0 5px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-on-img {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
